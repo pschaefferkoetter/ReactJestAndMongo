@@ -1,0 +1,12 @@
+{
+  "name": "reactjestandmongo",
+  "version": "1.0.0",
+  "description": "skeleton for react app with backend at tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Peter Schaefferkoetter",
+  "license": "MIT"
+}
