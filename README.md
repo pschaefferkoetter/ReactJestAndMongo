@@ -1,0 +1,2 @@
+# ReactJestAndMongo
+A simple skeleton
