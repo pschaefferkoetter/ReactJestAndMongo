@@ -26,5 +26,6 @@
         "jest"
     ],
     "rules": {
+        "namedComponents": "arrow-function"
     }
 }
