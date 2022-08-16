@@ -7,7 +7,7 @@
     "test": "jest --watchAll --no-cache --verbose",
     "lint": "eslint . && prettier-eslint --list-different **/*.js",
     "format": "prettier-eslint --write \"**/*.js\"",
-    "start": "webpack --mode=development",
+    "start": "webpack --config ./webpack.config.js --mode development -w",
     "build": "webpack --mode=production",
     "server:dev": "nodemon server/index.js",
     "seed": "node database/seed.js"
