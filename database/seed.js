@@ -5,13 +5,13 @@ const sampleTest = [
   {
     name: "Jenny",
     address: "Beverly Hills 90210",
-    phoneNumber: "876-5309"
+    phoneNumber: "876-5309",
   },
   {
     name: "Tommy Tutone",
     address: "Penguin City",
-    phoneNumber: "126-2431"
-  }
+    phoneNumber: "126-2431",
+  },
 ];
 
 const insertData = () => {

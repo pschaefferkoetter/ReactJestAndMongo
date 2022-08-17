@@ -4,10 +4,10 @@ const testSchema = new mongoose.Schema(
   {
     name: String,
     address: String,
-    phoneNumber: String
+    phoneNumber: String,
   },
   {
-    timestamps: true
+    timestamps: true,
   }
 );
 
