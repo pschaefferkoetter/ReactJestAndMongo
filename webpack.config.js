@@ -37,6 +37,18 @@ module.exports = {
         test: /\.scss$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
+      {
+        test: /\.svg$/,
+        use: 'file-loader'
+      },
+      {
+        test: /\.png$/,
+        use: 'file-loader'
+      },
+      {
+        test: /\.(woff|woff2|ttf|eot)$/,
+        use: 'file-loader'
+      }
     ],
   },
   plugins: [
