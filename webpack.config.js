@@ -39,11 +39,11 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-        use: 'file-loader'
+        type: "asset/resource"
       },
       {
         test: /\.png$/,
-        use: 'file-loader'
+        type: "asset/resource"
       },
       {
         test: /\.(woff|woff2|ttf|eot)$/,
